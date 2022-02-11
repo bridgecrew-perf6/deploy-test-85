@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/scripts/index.js src/styles/index.scss --no-cache --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.1",
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "three": "^0.137.5"
+  }
+}
